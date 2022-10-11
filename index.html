@@ -1,275 +1,420 @@
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Bloggy - Personal Blog Template</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
+<head>
+    <meta charset="UTF-8">
+    <title>曹  丽-清华大学自动化系</title><META Name="keywords" Content="清华大学自动化系,C" />
+<META Name="description" Content="教育背景1983年4月至1992年3月 在日本东京工业大学控制系统工学系智能检测与信号处理专业学习，分别获学士、硕士和工学博士学位工作履历1992年4月至1994年3月 花王公司文理科学研究所 博士后1994年4月至1998年6月 东京工业大学 助教1998年7月至今 清华大学自动化系 副教授学术兼职1988年4月至今 日本计测自动制御学会 正会员2008年5月至2018年8月 中国仪器仪表学会 理事会理事2008年5月至2018年8月 中国仪器仪表学会 仪器仪表学..." />
 
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover">
+    <link rel="stylesheet" href="../../css/public.css">
+    <link rel="stylesheet" href="../../css/banner.css">
+    <link rel="stylesheet" href="../../css/style.css">
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+    <script src="../../js/jquery-x.x.x.min.js"></script>
+<script src="../../js/jquery.min.js"></script>
+    <script src="../../js/public.js"></script>
+<style>
+.teacher-field-box .teacher-field .basic .info .contact .contact-li{
+font-size: 16px;}
+</style>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307e78475c5356574200000003435c -->
+<link rel="stylesheet" type="text/css" href="../../teacher-field.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1088,'/teacher-field.jsp',1501,1655252994)</script>
+</head>
+<body>
+<!--头部 begin-->
+<div class="header header-column">
+    <div class="header-line box-right">
+        <div class="sanjiao"></div>
+        <div class="content box-width">
+            <div class="line f-right"></div>
+            <div class="item search f-right" id="searchPC">
+                <script type="text/javascript">
+    function _nl_ys_check1(){
+        
+        var keyword = document.getElementById('showkeycode271991').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey271991").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey271991").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey271991").value = base64.encode(document.getElementById("lucenenewssearchkey271991").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode271991"));
+        return true;
+    } 
+</script>
+<form action="../../jsjg_list.jsp?wbtreeid=1088" method="post" id="au0a" name="au0a" onsubmit="return _nl_ys_check1()" style="display: inline">
+ <input type="hidden" id="lucenenewssearchkey271991" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype271991" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope271991" name="searchScope" value="0">
+    <input class="text" type="text" name="showkeycode" id="showkeycode271991">
+    <input class="btn" type="submit" onclick="return openInput()" value="">
+</form><script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
 
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
+            </div>
+            <script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script><div class="line f-right"></div>
+            <div class="item f-right"><a href="http://www.au.tsinghua.edu.cn/publish/auen/index.html" onclick="_addDynClicks(&#34;wburl&#34;, 1655252994, 66160)">English</a></div>
+            <div class="line f-right"></div>
+            <div class="item f-right"><a href="../../index.htm" onclick="_addDynClicks(&#34;wburl&#34;, 1655252994, 66159)">网站首页</a></div>
+            <div class="line f-right"></div>
+            <div class="item f-right"><a href="../../spdt.htm" onclick="_addDynClicks(&#34;wburl&#34;, 1655252994, 67554)">视频动态</a></div>
+            <div class="line f-right"></div>
 
-        <!-- Font Awesome -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-
-    <body>
-        <div class="wrapper">
-            <div class="sidebar">
-                <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
-                    <img class="mx-auto d-block w-75 bg-primary img-fluid rounded-circle mb-4 p-3" src="img/profile.jpg" alt="Image">
-                    <h1 class="font-weight-bold">Zhiyuan Zhang</h1>
-                    <p class="mb-4">
-                        Hi! I'm Zhiyuan Zhang, a junior undergraduate in Department of Automation, Tsinghua University. I'm also a research intern at Beijing Institute for General Artificial Intelligence. I'm interested in computer vision, and now working on human-object interactions.
-                    </p>
-                    <div class="d-flex justify-content-center mb-5">
-                
+        </div>
+    </div>
+    <div class="header-main box-left">
+        <div class="box-width">
+            
+<a href="../../index.htm"><div class="logo f-left"></div></a>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav f-right">
+                <div class="item f-left">
+                    <div class="li-box"><a href="../../yxjj/bxgk.htm">院系简介</a></div>
+                    <div class="child-box">
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../yxjj/bxgk.htm">本系概况</a></div>
                     </div>
-                    <a href="" class="btn btn-lg btn-block btn-primary mt-auto">Hire Me</a>
-                </div>
-                <div class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right">
-                    <i class="fas fa-2x fa-angle-double-right text-primary"></i>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../yxjj/zrzc.htm">主任致辞</a></div>
+                    </div>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../yxjj/xrld.htm">现任领导</a></div>
+                    </div>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../yxjj/lrld1/lrxzr.htm">历任领导</a></div>
+                    <div class="li-level3"><a href="../../yxjj/lrld1/lrxzr.htm">历任系主任</a></div>
+                    <div class="li-level3"><a href="../../yxjj/lrld1/lrxdwsj.htm">历任系党委书记</a></div>
+                    </div>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../yxjj/lsyg.htm">历史沿革</a></div>
+                    </div>
+                    </div>
+                </div>   
+<div class="item f-left">
+                    <div class="li-box"><a href="../../jgsz/wyh/xswyh.htm">机构设置</a></div>
+                    <div class="child-box">
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../jgsz/wyh/xswyh.htm">委员会</a></div>
+                    <div class="li-level3"><a href="../../jgsz/wyh/xswyh.htm">学术委员会</a></div>
+                    <div class="li-level3"><a href="../../jgsz/wyh/xwwyh.htm">学位委员会</a></div>
+                    <div class="li-level3"><a href="../../jgsz/wyh/jxwyh.htm">教学委员会</a></div>
+                    </div>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../jgsz/yjs.htm">研究所</a></div>
+                    </div>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../jgsz/syjzx.htm">实验中心</a></div>
+                    </div>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../jgsz/zhbgs.htm">综合办公室</a></div>
+                    </div>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../jgsz/yjzx.htm">研究中心</a></div>
+                    </div>
+                    </div>
+                </div>   
+<div class="item f-left">
+                    <div class="li-box"><a href="../../szdw/lyys.htm">师资队伍</a></div>
+                    <div class="child-box">
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../szdw/lyys.htm">两院院士</a></div>
+                    </div>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../szdw/jsdw1/ayjscz.htm">教师队伍</a></div>
+                    <div class="li-level3"><a href="../../szdw/jsdw1/ayjscz.htm">按研究所查找</a></div>
+                    <div class="li-level3"><a href="../../szdw/jsdw1/aszmcz.htm">按首字母查找</a></div>
+                    </div>
+                    </div>
+                </div>   
+<div class="item f-left">
+                    <div class="li-box"><a href="../../kxyj/xkfx.htm">科学研究</a></div>
+                    <div class="child-box">
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../kxyj/xkfx.htm">学科方向</a></div>
+                    </div>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../kxyj/yjjg/gjjjg.htm">研究机构</a></div>
+                    <div class="li-level3"><a href="../../kxyj/yjjg/gjjjg.htm">国家级机构</a></div>
+                    <div class="li-level3"><a href="../../kxyj/yjjg/sbjjg.htm">省部级机构</a></div>
+                    <div class="li-level3"><a href="../../kxyj/yjjg/xjjg.htm">校级机构</a></div>
+                    <div class="li-level3"><a href="../../kxyj/yjjg/xqlh.htm">校企联合</a></div>
+                    </div>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../kxyj/kycg/gjj.htm">科研成果</a></div>
+                    <div class="li-level3"><a href="../../kxyj/kycg/gjj.htm">国家奖</a></div>
+                    <div class="li-level3"><a href="../../kxyj/kycg/sbjj.htm">省部级奖</a></div>
+                    </div>
+                    </div>
+                </div>   
+<div class="item f-left">
+                    <div class="li-box"><a href="../../jyjx/bksjx.htm">教育教学</a></div>
+                    <div class="child-box">
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../jyjx/bksjx.htm">本科生教学</a></div>
+                    </div>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../jyjx/yjsjx/yjsjx.htm">研究生教学</a></div>
+                    <div class="li-level3"><a href="../../jyjx/yjsjx/yjsjx.htm">研究生教学</a></div>
+                    <div class="li-level3"><a href="../../jyjx/yjsjx/bss.htm">博士生</a></div>
+                    <div class="li-level3"><a href="../../jyjx/yjsjx/zyxw.htm">专业学位</a></div>
+                    </div>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../jyjx/jxcg.htm">教学成果</a></div>
+                    </div>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../jyjx/jyjj.htm">教育基金</a></div>
+                    </div>
+                    </div>
+                </div>   
+<div class="item f-left">
+                    <div class="li-box"><a href="../../zsjy/bkszs.htm">招生动态</a></div>
+                    <div class="child-box">
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../zsjy/bkszs.htm">本科生招生</a></div>
+                    </div>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../zsjy/yjszs.htm">研究生招生</a></div>
+                    </div>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../zsjy/bdmd.htm">博导名单</a></div>
+                    </div>
+                    </div>
+                </div>   
+<div class="item f-left">
+                    <div class="li-box"><a href="../../dqgz1/dqdt.htm">党群工作</a></div>
+                    <div class="child-box">
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../dqgz1/dqdt.htm">党群动态</a></div>
+                    </div>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../dqgz1/shsj.htm">社会实践</a></div>
+                    </div>
+                    </div>
+                </div>   
+<div class="item f-left">
+                    <div class="li-box"><a href="../../gjjl.htm">国际交流</a></div>
+                </div>   
+<div class="item f-left">
+                    <div class="li-box"><a href="../../xytd/xyhd.htm">系友天地</a></div>
+                    <div class="child-box">
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../xytd/xyhd.htm">系友活动</a></div>
+                    </div>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../xytd/xyfc.htm">系友风采</a></div>
+                    </div>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../xytd/xyjz.htm">系友捐赠</a></div>
+                    </div>
+                    <div class="child-li">
+                    <div class="li-level2"><a href="../../xytd/lxwm.htm">联系我们</a></div>
+                    </div>
+                    </div>
+                </div>   
+<div class="item f-left">
+                    <div class="li-box"><a href="../../zpxx.htm">招聘信息</a></div>
+                </div>   
+<div class="item f-left">
+                    <div class="li-box"><a href="../../shfw.htm">社会服务</a></div>
+                </div>   
+  
+  
+  
+
+                <div class="item search search-m">
+                   <script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode271895').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey271895").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey271895").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey271895").value = base64.encode(document.getElementById("lucenenewssearchkey271895").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode271895"));
+        return true;
+    } 
+</script>
+<form action="../../jsjg_list.jsp?wbtreeid=1088" method="post" id="au4a" name="au4a" onsubmit="return _nl_ys_check()" style="display: inline">
+ <input type="hidden" id="lucenenewssearchkey271895" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype271895" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope271895" name="searchScope" value="0">
+  <input class="text" type="text" name="showkeycode" id="showkeycode271895">
+  <input class="btn" type="submit" value="">
+</form>
+
+                    
+<a href="http://www.au.tsinghua.edu.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 1655252994, 66176)"><div class="en">EN</div></a>
+
                 </div>
             </div>
-            <div class="content">
-                <!-- Navbar Start -->
-                <div class="container p-0">
-                    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
-                        <a href="" class="navbar-brand d-block d-lg-none">Navigation</a>
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                            <div class="navbar-nav m-auto">
-                                <a href="index.html" class="nav-item nav-link active">Home</a>
-                                <a href="about.html" class="nav-item nav-link">About</a>
-                                <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
-                                    <div class="dropdown-menu">
-                                        <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                                        <a href="single.html" class="dropdown-item">Blog Detail</a>
-                                    </div>
-                                </div>
-                                <a href="contact.html" class="nav-item nav-link">Contact</a>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-                <!-- Navbar End -->
-                
-                <!-- Carousel Start -->
-                <div class="container p-0">
-                    <div id="blog-carousel" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="w-100" src="img/carousel-1.jpg" alt="Image">
-                                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                    <h2 class="mb-3 text-white font-weight-bold">Lorem ipsum dolor sit amet</h2>
-                                    <div class="d-flex text-white">
-                                        <small class="mr-2"><i class="fa fa-calendar-alt"></i> 01-Jan-2045</small>
-                                        <small class="mr-2"><i class="fa fa-folder"></i> Web Design</small>
-                                        <small class="mr-2"><i class="fa fa-comments"></i> 15 Comments</small>
-                                    </div>
-                                    <a href="" class="btn btn-lg btn-outline-light mt-4">Read More</a>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img class="w-100" src="img/carousel-2.jpg" alt="Image">
-                                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                    <h2 class="text-white font-weight-bold">Lorem ipsum dolor sit amet</h2>
-                                    <div class="d-flex">
-                                        <small class="mr-2"><i class="fa fa-calendar-alt"></i> 01-Jan-2045</small>
-                                        <small class="mr-2"><i class="fa fa-folder"></i> Web Design</small>
-                                        <small class="mr-2"><i class="fa fa-comments"></i> 15 Comments</small>
-                                    </div>
-                                    <a href="" class="btn btn-lg btn-outline-light mt-4">Read More</a>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img class="w-100" src="img/carousel-3.jpg" alt="Image">
-                                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                    <h2 class="text-white font-weight-bold">Lorem ipsum dolor sit amet</h2>
-                                    <div class="d-flex">
-                                        <small class="mr-2"><i class="fa fa-calendar-alt"></i> 01-Jan-2045</small>
-                                        <small class="mr-2"><i class="fa fa-folder"></i> Web Design</small>
-                                        <small class="mr-2"><i class="fa fa-comments"></i> 15 Comments</small>
-                                    </div>
-                                    <a href="" class="btn btn-lg btn-outline-light mt-4">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#blog-carousel" data-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </a>
-                        <a class="carousel-control-next" href="#blog-carousel" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </a>
-                    </div>
-                </div>
-                <!-- Carousel End -->
-                
-                
-                <!-- Blog List Start -->
-                <div class="container bg-white pt-5">
-                    <div class="row blog-item px-3 pb-5">
-                        <div class="col-md-5">
-                            <img class="img-fluid mb-4 mb-md-0" src="img/blog-1.jpg" alt="Image">
-                        </div>
-                        <div class="col-md-7">
-                            <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">Lorem ipsum dolor sit amet</h3>
-                            <div class="d-flex mb-3">
-                                <small class="mr-2 text-muted"><i class="fa fa-calendar-alt"></i> 01-Jan-2045</small>
-                                <small class="mr-2 text-muted"><i class="fa fa-folder"></i> Web Design</small>
-                                <small class="mr-2 text-muted"><i class="fa fa-comments"></i> 15 Comments</small>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu suscipit orci velit id libero
-                            </p>
-                            <a class="btn btn-link p-0" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="row blog-item px-3 pb-5">
-                        <div class="col-md-5">
-                            <img class="img-fluid mb-4 mb-md-0" src="img/blog-2.jpg" alt="Image">
-                        </div>
-                        <div class="col-md-7">
-                            <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">Lorem ipsum dolor sit amet</h3>
-                            <div class="d-flex mb-3">
-                                <small class="mr-2 text-muted"><i class="fa fa-calendar-alt"></i> 01-Jan-2045</small>
-                                <small class="mr-2 text-muted"><i class="fa fa-folder"></i> Web Design</small>
-                                <small class="mr-2 text-muted"><i class="fa fa-comments"></i> 15 Comments</small>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu suscipit orci velit id libero
-                            </p>
-                            <a class="btn btn-link p-0" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="row blog-item px-3 pb-5">
-                        <div class="col-md-5">
-                            <img class="img-fluid mb-4 mb-md-0" src="img/blog-3.jpg" alt="Image">
-                        </div>
-                        <div class="col-md-7">
-                            <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">Lorem ipsum dolor sit amet</h3>
-                            <div class="d-flex mb-3">
-                                <small class="mr-2 text-muted"><i class="fa fa-calendar-alt"></i> 01-Jan-2045</small>
-                                <small class="mr-2 text-muted"><i class="fa fa-folder"></i> Web Design</small>
-                                <small class="mr-2 text-muted"><i class="fa fa-comments"></i> 15 Comments</small>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu suscipit orci velit id libero
-                            </p>
-                            <a class="btn btn-link p-0" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog List End -->
-                
-                
-                <!-- Subscribe Start -->
-                <div class="container py-5 px-4 bg-secondary text-center">
-                    <h1 class="text-white font-weight-bold">Subscribe My Newsletter</h1>
-                    <p class="text-white">Subscribe and get my latest article in your inbox</p>
-                    <form class="form-inline justify-content-center">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Your Email">
-                            <div class="input-group-append">
-                              <button class="btn btn-primary" type="submit">Subscribe</button>
-                            </div>
-                          </div>
-                    </form>
-                </div>
-                <!-- Subscribe End -->
-                
-                
-                <!-- Blog List Start -->
-                <div class="container bg-white pt-5">
-                    <div class="row blog-item px-3 pb-5">
-                        <div class="col-md-5">
-                            <img class="img-fluid mb-4 mb-md-0" src="img/blog-4.jpg" alt="Image">
-                        </div>
-                        <div class="col-md-7">
-                            <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">Lorem ipsum dolor sit amet</h3>
-                            <div class="d-flex mb-3">
-                                <small class="mr-2 text-muted"><i class="fa fa-calendar-alt"></i> 01-Jan-2045</small>
-                                <small class="mr-2 text-muted"><i class="fa fa-folder"></i> Web Design</small>
-                                <small class="mr-2 text-muted"><i class="fa fa-comments"></i> 15 Comments</small>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu suscipit orci velit id libero
-                            </p>
-                            <a class="btn btn-link p-0" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="row blog-item px-3 pb-5">
-                        <div class="col-md-5">
-                            <img class="img-fluid mb-4 mb-md-0" src="img/blog-5.jpg" alt="Image">
-                        </div>
-                        <div class="col-md-7">
-                            <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">Lorem ipsum dolor sit amet</h3>
-                            <div class="d-flex mb-3">
-                                <small class="mr-2 text-muted"><i class="fa fa-calendar-alt"></i> 01-Jan-2045</small>
-                                <small class="mr-2 text-muted"><i class="fa fa-folder"></i> Web Design</small>
-                                <small class="mr-2 text-muted"><i class="fa fa-comments"></i> 15 Comments</small>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu suscipit orci velit id libero
-                            </p>
-                            <a class="btn btn-link p-0" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="row blog-item px-3 pb-5">
-                        <div class="col-md-5">
-                            <img class="img-fluid mb-4 mb-md-0" src="img/blog-6.jpg" alt="Image">
-                        </div>
-                        <div class="col-md-7">
-                            <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">Lorem ipsum dolor sit amet</h3>
-                            <div class="d-flex mb-3">
-                                <small class="mr-2 text-muted"><i class="fa fa-calendar-alt"></i> 01-Jan-2045</small>
-                                <small class="mr-2 text-muted"><i class="fa fa-folder"></i> Web Design</small>
-                                <small class="mr-2 text-muted"><i class="fa fa-comments"></i> 15 Comments</small>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu suscipit orci velit id libero
-                            </p>
-                            <a class="btn btn-link p-0" href="">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog List End -->
-                
-                
-                <!-- Footer Start -->
-                <div class="container py-4 bg-secondary text-center">
-                    <p class="m-0 text-white">
-                        &copy; <a class="text-white font-weight-bold" href="#">Your Site Name</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
-                    </p>
-                </div>
-                <!-- Footer End -->
-            </div>
+            <div class="sanjiao"></div>
+        </div>
+    </div>
+</div>
+<!--头部 end-->
+<div class="top-img">
+        
+    
+<img src="../../css/183008.jpg" />
+ 
+
+
+    <div class="column-name box-right">
+        
+
+
+
+师资队伍
+        <div class="sanjiao"></div>
+    </div>
+</div>
+<div class="menu-box">
+    <div class="menu"><div class="item f-left  ">
+            <a href="../../szdw/lyys.htm">两院院士</a>
+            
+            
         </div>
         
-        <!-- Back to Top -->
-        <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+<div class="item f-left  active  ">
+            <a href="../../szdw/jsdw1/ayjscz.htm">教师队伍</a>
+            <div class="icon"></div>
+<div class="child">
+                <div class="child-li  "><a href="../../szdw/jsdw1/ayjscz.htm">按研究所查找</a></div>
+                <div class="child-li  active  "><a href="../../szdw/jsdw1/aszmcz.htm">按首字母查找</a></div>
+            </div>
+            
+        </div>
         
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
+</div>
+</div>
+<div class="main-box">
+    <div class="main box-width">
+        <div class="location">
+            <div class="name">
 
-        <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
+
+教师队伍</div>
+            <div class="cur-location">当前位置 ： 
+                        <a href="../../index.htm">首页</a>
+                > 
+                <a href="../../szdw/lyys.htm">师资队伍</a>
+                > 
+                <a href="../../szdw/jsdw1/ayjscz.htm">教师队伍</a>
+                > 
+                <a href="../../szdw/jsdw1/aszmcz.htm">按首字母查找</a>
+                > 
+                <a href="../../szdw/jsdw1/aszmcz/C.htm">C</a>
+                > 
+                <a href="">正文</a>
+</div>
+            <div class="clear-both"></div>
+        </div>
+        <div class="content-box">
+            <div class="teacher-field-box">
+                <div class="teacher-field">
+
+
+
+
+<script language="javascript" src="../../_dwr/interface/NewsvoteDWR.js"></script><script language="javascript" src="../../_dwr/engine.js"></script><script language="javascript" src="/system/resource/js/news/newscontent.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><form name="_newscontent_fromname">
+
+
+                    <div class="basic">
+                        <div class="img f-left">
+                            <img src="/__local/D/A8/A8/481A4C74C31F5BDD1C42064C55E_943339B1_5A52.jpg">
+                        </div>
+                        <div class="info f-left">
+                            <div class="name">Zhiyuan Zhang</div>
+                            <div class="desc">
+                                <p>副教授</p>
+                                <p>检测与电子技术研究所</p>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                            </div>
+                            <div class="contact">
+                                <div class="contact-li email">邮箱：caoli@tsinghua.edu.cn</div>
+                                <div class="contact-li phone">电话：  010-62792559</div>
+                                <div class="contact-li address">地点：北京清华大学自动化系</div>
+                            </div>
+                        </div>
+                        <div class="clear-both"></div>
+                    </div>
+
+<div id="vsb_content"><div class="v_news_content">
+<div>
+ <p class="vsbcontent_start"><br></p>
+ <div class="t-tag edu">
+  教育背景
+ </div>
+ <p><br></p>
+</div>
+<div>
+ <p>1983年4月至1992年3月 在日本东京工业大学控制系统工学系智能检测与信号处理专业学习，分别获学士、硕士和工学博士学位</p>
+</div>
+<div>
+ <p><br></p>
+ <div class="t-tag job">
+  工作履历
+ </div>
+ <p><br></p>
+</div>
+
+<div>
+ <p><br></p>
+ <div class="t-tag xs-job">
+  学术兼职
+ </div>
+ <p><br></p>
+</div>
+<div>
+
+ </div>
+ <p><br></p>
+</div>
+
+<div>
+ <p><br></p>
+ <div class="t-tag xs-result">
+
+
+
+
+
+</form>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+    
+
+
+</div>
+</body>
 </html>
